@@ -11,7 +11,6 @@
 #define DEF_PACKET_SIZE 32
 #define ECHO_REQUEST 8
 #define ECHO_REPLY 0
-#define TTL_EQUALS_ZERO 11
 
 struct IPHeader {
     BYTE m_byVerHLen;           //4位版本号+4位首部长度
